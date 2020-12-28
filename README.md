@@ -14,19 +14,19 @@ Then create 3 tables in this database
 
 
 The query for creating **login** Table:\
-_CREATE TABLE login(userName varchar(20), password varchar(50));_
+`_CREATE TABLE login(userName varchar(20), password varchar(50));_`
 
 Now store a username and password to access the GUI.\
-_INSERT INTO login VALUE('hello','world');_\
+`_INSERT INTO login VALUE('hello','world');_`\
 (you can give any values for this)
 
 
-Once this is done create 2nd table, i.e. **dressTable** \
-_CREATE TABLE dressTable(DRESS_CODE int, TYPE varchar(30),CATEGORY varchar(30),SIZE varchar(25),PRICE int);_
+Once this is done create 2nd table, i.e. **dressTable** :\
+`_CREATE TABLE dressTable(DRESS_CODE int, TYPE varchar(30),CATEGORY varchar(30),SIZE varchar(25),PRICE int);_`
 
 
-Now Create 3rd Table, **soldTable** \
-_CREATE TABLE soldTable(ID int, Sold_To varchar(30));_
+Now Create 3rd Table, **soldTable** :\
+`_CREATE TABLE soldTable(ID int, Sold_To varchar(30));_`
 <br/>
 The Database Configuration is done.
 
