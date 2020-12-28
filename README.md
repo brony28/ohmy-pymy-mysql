@@ -1,6 +1,7 @@
 # ohmy-pymy-mysql #
 An easy-to-make Tkinter - MySQL interactive project edited and debugged for my friend...\
-Simple version of ODBC in Python.
+Simple version of ODBC in Python.\
+__pymysql__ package used.
 
 #### Small Guide.. ####
 
