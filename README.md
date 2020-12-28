@@ -1,29 +1,29 @@
 # ohmy-pymy-mysql #
-An easy-to-make Tkinter - MySQL interactive project edited and debugged for my friend...  Simple version of ODBC in Python.
+An easy-to-make Tkinter - MySQL interactive project edited and debugged for my friend...\  Simple version of ODBC in Python.
 
 Small Guide..
 
 First, keep all program files and image in one folder.
 
-Create a Database of name **mydatabase** using MySQL.  Then create 3 tables in this database
+Create a Database of name **mydatabase** using MySQL.\  Then create 3 tables in this database
 1. login
 2. dressTable
 3. soldTable
 
 
-The query for creating **login** Table:
+The query for creating **login** Table:\
 _CREATE TABLE login(userName varchar(20), password varchar(50));_
 
-Now store a username and password to access the GUI.
+Now store a username and password to access the GUI.\
 _INSERT INTO login VALUE('hello','world');_<br/>
 (you can give any values for this)
 
 
-Once this is done create 2nd table, i.e. **dressTable**
+Once this is done create 2nd table, i.e. **dressTable** \
 _CREATE TABLE dressTable(DRESS_CODE int, TYPE varchar(30),CATEGORY varchar(30),SIZE varchar(25),PRICE int);_
 
 
-Now Create 3rd Table, **soldTable**
+Now Create 3rd Table, **soldTable** \
 _CREATE TABLE soldTable(ID int, Sold_To varchar(30));_
 
 The Database Configuration is done.
