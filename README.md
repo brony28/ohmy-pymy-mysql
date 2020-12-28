@@ -2,7 +2,7 @@
 An easy-to-make Tkinter - MySQL interactive project edited and debugged for my friend...\
 Simple version of ODBC in Python.
 
-Small Guide..
+#### Small Guide.. ####
 
 First, keep all program files and image in one folder.
 
@@ -17,7 +17,7 @@ The query for creating **login** Table:\
 _CREATE TABLE login(userName varchar(20), password varchar(50));_
 
 Now store a username and password to access the GUI.\
-_INSERT INTO login VALUE('hello','world');_<br/>
+_INSERT INTO login VALUE('hello','world');_\
 (you can give any values for this)
 
 
@@ -27,7 +27,7 @@ _CREATE TABLE dressTable(DRESS_CODE int, TYPE varchar(30),CATEGORY varchar(30),S
 
 Now Create 3rd Table, **soldTable** \
 _CREATE TABLE soldTable(ID int, Sold_To varchar(30));_
-
+<br/>
 The Database Configuration is done.
 
 
